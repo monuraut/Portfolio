@@ -1,0 +1,171 @@
+:root{
+    --primary-color: #a855f7;
+    --primary-colo-dark: #9333ea;
+    --secondary-color: #ca8a04;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --extra-light: #faf5ff;
+    --max-width: 1200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: sans-serif;
+}
+
+
+nav{
+    height: 65px;
+    width: 100%;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    padding-left: 40px;
+    transition: transform 0.5s ease;
+}
+
+.nav-logo:hover{
+    transform: scale(1.1);
+}
+
+.logo{
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #a855f7;
+}
+
+.nav-menu{
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 130px;
+}
+
+li {
+    padding-right: 30px;
+    display: inline;
+}
+
+a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding: 8px 20px;
+}
+
+a:hover{
+    border-top: 2px solid #ca8a04;
+    border-bottom: 2px solid #ca8a04;
+    color: #ca8a04;
+}
+
+.body-content{
+height: 100%;
+width: 100%;
+background-color: #faf5ff;
+display: flex;
+
+}
+
+.body-web{
+    height: 600px;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.text1{
+    color: #6b7280;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.text2{
+    color: #1f2937;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.text3{
+    color: #1f2937;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.text4{
+    color: #6b7280;
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.body-btns{
+margin-top: 30px;
+}
+
+.hire-me{
+    letter-spacing: 2px;
+    color: #1f2937;
+    font-size: 15px;
+    font-weight: 600;
+    height: 45px;
+    width: 150px;
+    border: 2.5px solid #a855f7;
+    border-radius: 10px;
+}
+
+.hire-me:hover{
+    color: #ffffff;
+    background-color: #9333ea;
+}
+.portfolio{
+    letter-spacing: 2px;
+    color: #1f2937;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    height: 45px;
+    width: 150px;
+    border: 2.5px solid #a855f7;
+    border-radius: 10px;
+
+}
+
+.portfolio:hover{
+    color: #ffffff;
+    background-color: #9333ea;
+}
+
+
+.body-image{
+    height: 600px;
+    width: 40%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    height: 400px;
+    width: 420px;
+    box-shadow: 0 0  13px;
+    border-radius: 50%;
+    transition: transform 1.1s ease;
+}
+
+.image img:hover{
+    transform: scale(1.1);
+}
